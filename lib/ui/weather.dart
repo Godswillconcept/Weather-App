@@ -31,7 +31,7 @@ class _WeatherState extends State<Weather> {
           queryParameters: {
             'q': location,
             'units': 'metric',
-            'APPID': '0089b4971f7ebb1d030ec3058e8b677a',
+            'APPID': '31b93a203fdbdb470ba0e60c72e0f946',
           },
         );
 
@@ -54,7 +54,7 @@ class _WeatherState extends State<Weather> {
         'lat': lat,
         'lon': lon,
         'units': 'metric',
-        'APPID': '0089b4971f7ebb1d030ec3058e8b677a',
+        'APPID': '31b93a203fdbdb470ba0e60c72e0f946',
       },
     );
     return WeatherData.fromJson(response.data);
